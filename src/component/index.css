@@ -57,7 +57,7 @@ text-align: center;
         color: skyblue;
        margin: 25px;
         margin-top: -45px;
-        margin-left: 85px;
+  
         }
         .text5{
           color: white;
@@ -72,7 +72,7 @@ text-align: center;
             margin: 25px;
             
             margin-top: -30px;
-            margin-left: 3px;
+        
             }
 
             .home :hover{
@@ -96,49 +96,136 @@ background-position: center;
     height: 100vh;
     width: 100%;
     background: black solid;
-    
-    /* opacity: 0.5;  */
+    text-align: center;
+    padding: 20% 10% 20% 10%;
     
   }
+  .home-content{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  
 
-  .home-image{
+  /* .home-image{
     width:100% ;
     height:100% ;
     position: fixed; 
      opacity:0.5 ;
-  }
+  } */
   .About-container{
-    background-color: rgb(2, 20, 59);
+    background-color: white;
     width: 100%;
     height: 100%;
-  }
-  .about{
-    color: white;
-    font-size: 15px;
-    margin-left: 300px;
-
-  }
-
-  .h1{
- 
-  margin-left: 400px;
-  font-size: 65px;
-  color: white;
-font-weight: bold;
    
   }
+ 
 
-  .h2{
-    /* margin-top: -500px; */
-    margin-left: 400px;
-    font-size: 30px;
-    font-style: italic;
-    color: white;
-    
   
-  }
+
+  
 .aboutParagraph{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: normal;
+
+}
+.small-image{
+  
+  width:300px;
+  height: 300px;
+  
+}
+
+.full{
+  font-size: 25px;
+  font-weight: bold;
+ 
+  margin-top: -300px;
+}
+.nameAbout{
+  font-size: 20px;
+  
+}
+.email{
+  font-size: 20px;
+ 
+}
+.tel{
+  
+  font-size: 20px;
+}
+.city{
+  margin-left: 700px;
+  font-size: 20px;
+}
+.freelance{
+  
+  font-size: 20px;
+}
+.skill{
+  color: black;
+    font-size: 30px;
+    
+}
+/* .backend{
+  
+  font-size: 20px;
+  margin-left: 500px;
+}
+.frontckend{
+  
+    font-size: 20px;
+    margin-left: 300px;
+
+} */
+.otherSkill{
+  font-size: 20px;
+ 
+}
+.noteResume{
+  font-size: 20px;
+  font-weight: normal;
+
+}
+.resume{
+  color: black;
+    font-size: 30px;
+    
+}
+.rowSkills{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* grid-gap: -2; */
+  position: relative; left: 20%;
+/* padding: 1% 1% 1% 1%; */
+
+  /* width: 100px;
+  height: 100px; */
+
+  color:blue;
+/* margin-left: 6%; */
+
+}
+.column1{
+  margin: 6%;
+}
+.Working-container{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.Working{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.WorkingParagraph{
+  font-size: 20px;
+  font-weight: normal;
+
+}
+.WorkingParagraphH1{
+  font-size: 20px;
+  font-weight: bold;
 
 }

@@ -10,11 +10,12 @@ const HomeComponent =()=>{
 <div className="Home-container">
 
     {/* <img src={pexel} alt="home-image" className="home-image"/> */}
-    <div className="h1">Damars Kankera</div>
-    <div className="h2">I'm back-end Developer
+    <div className="home-content">Damars Kankera
+    <p> I'm back-end Developer</p>
+    </div>
+    
    
     
-</div>
     
 </div>
     )
