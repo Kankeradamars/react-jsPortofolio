@@ -1,4 +1,4 @@
-import React from 'react';
+
 import logo from './logo.svg';
 import dama from './assets/imagess/dama.jpg';
 import Route from "./route";
