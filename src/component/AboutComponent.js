@@ -21,23 +21,37 @@ const AboutComponent =()=>{
        user experience with technical knowledge to create cool digital experiences.
     </p>
 
-    <img src={damaa} alt="round-image" className="small-image"/>
-        
-    <p className="full">UI/UX Designer & Fullstack Developer.</p>
-
-    <p className="nameAbout"> >Name:Kankera Damars</p>
-    <p className="email">email:musonidamars@gmail.com</p>
-    <p className="tel">tel:+250788289680</p>
-    <p className="city">Rwanda/ Kigali City</p>
-    <p className="freelance">>Freelance: Am available</p>
-
+    <Row>
+        <Col span={8}>
+        <img src={damaa} alt="round-image" className="small-image"/>
+        </Col>
+        <Col span={8}>
+        <p className="full">UI/UX Designer & Fullstack Developer.</p>
+        <ul >
+    <li>Name:Kankera Damars</li>
+    <li>email:musonidamars@gmail.com</li>
+    <li>tel:+250788289680</li>
+    <li>Rwanda/ Kigali City</li>
+<li>Freelance: Am available</li>
+</ul>
+        </Col>
+    </Row>
+    
+    
+    
+    
+    
+    
+    
+    
 
 <div>
-    <h1 className="skill">Skills</h1>
+    <h1>Skills</h1>
+    <hr/>
 
     <div className="rowSkills">
         <div className="column1">
-        <h1 className="backend">Backend Development</h1>
+        <h2 className="backend">Backend Development</h2>
             <>
     <p>HTML</p><Progress   strokeColor={{'0':'#108ee9', '100%':'#108ee9'}}  percent={100} status= "active" />
     <p>JAVASCRIPT</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#108ee9'}}  percent={80} status= "active" />
@@ -45,7 +59,7 @@ const AboutComponent =()=>{
     </>,
     </div>
     <div className="column1">
-    <h1 className="frontckend">Frontend Development</h1>
+    <h2 className="frontckend">Frontend Development</h2>
     <>
     <p>Node js</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#108ee9'}} percent={80} status= "active" />
     <p>React js</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#108ee9'}}  percent={80}status= "active" /> 
@@ -56,7 +70,8 @@ const AboutComponent =()=>{
 
 
 <div >
-    <h1 className="resume">Resume</h1>
+    <h1 >Resume</h1>
+    <hr/>
     <p className="noteResume">I am back-end Developer,
     I am a self- motivated and self-taught professional who likes to solve problems.
        I merge a passion for usability and 
@@ -72,11 +87,10 @@ const AboutComponent =()=>{
             <ul>
                 <li>Kigali, Rwanda</li>
                 <li>+250788289680</li>
-                <li></li>
+                <li>musonidamars@gmail.com</li>
             </ul>
-            <p></p>
-            <p></p>
-            <p>musonidamars@gmail.com</p>
+
+           
             <h2>Education</h2>
             <h3>Bachelors in Food Science Technology</h3>
             
@@ -84,7 +98,8 @@ const AboutComponent =()=>{
     </div>
 
     <div className="Working-container">
-<div className="working">Working-Experience</div>
+<h1 >Working-Experience</h1>
+<hr/>
 
     <p className="WorkingParagraph"><h3 className="WorkingParagraphH1">Rwanda Haza Tech Ltd</h3>
     Rwanda Haza Tech Ltd is tech company founded in 2017 and officially 
