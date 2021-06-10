@@ -5,6 +5,7 @@
     cursor: pointer;
     transition: color 0.3s;
     position: fixed;
+    
   }
   
   .trigger:hover {
@@ -19,13 +20,21 @@
     border-radius: 50%;
     border: 5px solid darkslategray;
   }
+  .layout{
+    background-color: white;
+  }
   .name{
     font-weight: bolder;
     font-style: oblique;
 text-align: center;
     font-size: 25px;
     color: white;
-
+  }
+  .name2{
+    font-style: oblique;
+text-align: center;
+    font-size: 15px;
+    color: white;
   }
   .socialIcons{
     font-size: 20px;
@@ -80,7 +89,7 @@ text-align: center;
             }
             
   .site-layout-background{
-background: url(../assets/imagess/pexel.jpg);
+background: url(../assets/imagess/noire.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -88,20 +97,20 @@ background-position: center;
 
   }
 
-  /* .site-layout  {
-  
-  } */
+ 
 
   .Home-container {
-    height: 100vh;
-    width: 100%;
-    background: black solid;
+    
+    background: white solid;
     text-align: center;
     padding: 20% 10% 20% 10%;
+    margin-left: 250px;
+    opacity: 0.2;
     
+
   }
   .home-content{
-    color: white;
+    color: black;
     font-size: 40px;
     font-weight: bolder;
   }
@@ -115,13 +124,13 @@ background-position: center;
   } */
   .About-container{
     background-color: white;
-    width: 100%;
-    height: 100%;
+    margin-left: 250px;
+    
    
   }
-  .About-content{
+  /* .About-content{
     margin-left: 300px;
-  }
+  } */
   hr{
 height: 5px;
 width: 40px;
@@ -133,6 +142,7 @@ position: relative; right: 48.3%;
   h1{
     font-size: 40px;
     font-weight: bolder;
+    margin-left: 10px;
 
   }
 
@@ -140,7 +150,7 @@ position: relative; right: 48.3%;
 
   
 .aboutParagraph{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: normal;
 
 }
@@ -162,22 +172,27 @@ position: relative; right: 48.3%;
   font-size: 20px;
   
 }
-.email{
-  font-size: 20px;
- 
+.columnOnSummary{
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+  /* grid-gap: -400px; */
+
+
 }
-.tel{
-  
-  font-size: 20px;
-}
-.city{
-  margin-left: 700px;
-  font-size: 20px;
-}
-.freelance{
-  
-  font-size: 20px;
-}
+/* .columnOnSummary::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  font-style:Segoe UI;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1F5297;
+} */
+
 .skill{
   color: black;
     font-size: 30px;
@@ -194,25 +209,25 @@ position: relative; right: 48.3%;
     margin-left: 300px;
 
 } */
-.otherSkill{
+/* .otherSkill{
   font-size: 20px;
  
-}
-.noteResume{
+} */
+/* .noteResume{
   font-size: 20px;
   font-weight: normal;
 
 }
-.resume{
-  color: black;
+.resume{ */
+  /* color: black;
     font-size: 30px;
     
-}
+} */
 .rowSkills{
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   /* grid-gap: -2; */
-  position: relative; left: 20%;
+  position: relative;
 /* padding: 1% 1% 1% 1%; */
 
   /* width: 100px;
@@ -244,4 +259,62 @@ position: relative; right: 48.3%;
   font-size: 20px;
   font-weight: bold;
 
+}
+
+.services-container{
+  background-color: white;
+  margin-left: 250px;
+}
+.contact-card{
+  box-shadow: 3px 3px 3px 3px black;
+width: 40%;
+margin: 10px;
+}
+.contact-card1{
+  box-shadow: 3px 3px 3px 3px rgb(251, 247, 247);
+width: 50%;
+margin: 10px;
+margin-left: 35em;
+margin-top: -25em;
+}
+.contact-info{
+  margin-left: 10px;
+}
+.contact-icons{
+  font-size: 20px;
+}
+.port{
+  box-shadow: 3px 3px 3px 3px black;
+width: 20em;
+height: 20em;
+background: url(../assets/imagess/blog.jpeg);
+
+  /* height: 30%; */
+}
+
+.port1{
+  box-shadow: 3px 3px 3px 3px black;
+width: 20em;
+height: 20em;
+background: url(../assets/imagess/bb.jpeg);
+margin-left: 25em;
+margin-top: -300px;
+
+}
+.resume-card1{
+  box-shadow: 3px 3px 3px 3px gray;
+  width: 25em;
+  height: 30em;
+}
+.resume-card{
+  box-shadow: 3px 3px 3px 3px gray;
+width: 25em;
+height: 30em;
+
+/* margin-left: 25em;
+margin-top: -300px; */
+}
+.resume-card2019{
+  background-color:white;
+  font-weight: bolder;
 }

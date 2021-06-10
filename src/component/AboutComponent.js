@@ -2,14 +2,15 @@ import React from "react";
 import './index.css';
 import damaa from "../assets/imagess/damaa.jpg";
 import {Progress} from 'antd';
-import {Col,Row} from 'antd';
+import {Col,Row, Card} from 'antd';
+
 
 // import  from "../assets/imagess/";
 
 const AboutComponent =()=>{
 
     return(
-<div className="About-container">
+<Card className="About-container">
     <div className="About-content">
     <h1 >About</h1>
     <hr/>
@@ -54,14 +55,14 @@ const AboutComponent =()=>{
         <h2 className="backend">Backend Development</h2>
             <>
     <p>HTML</p><Progress   strokeColor={{'0':'#108ee9', '100%':'#108ee9'}}  percent={100} status= "active" />
-    <p>JAVASCRIPT</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#108ee9'}}  percent={80} status= "active" />
+    <p>JAVASCRIPT</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#118ee9'}}  percent={80} status= "active" />
     <p>CSS</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#108ee9'}} percent={65} status= "active" /> 
     </>,
     </div>
     <div className="column1">
     <h2 className="frontckend">Frontend Development</h2>
     <>
-    <p>Node js</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#108ee9'}} percent={80} status= "active" />
+    <p>Node js</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#118ee9'}} percent={80} status= "active" />
     <p>React js</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#108ee9'}}  percent={80}status= "active" /> 
     </>,
     </div>
@@ -78,43 +79,62 @@ const AboutComponent =()=>{
        user experience with technical knowledge to create cool digital experiences.  
     </p>
 
-    <div className="resumeSummary">
+    <div className="columnOnSummary">
+    
+        <Card className="resume-card1">
        <h2>Summary</h2> 
        <h3>Damars Kankera</h3>
-       <p>Innovative and deadline-driven Graphic Designer with 3+ years of
-            experience designing and developing user-centered digital/print
-            marketing material from initial concept to final, polished deliverable.</p>
+       <p>I'm Hard working, I have bachelor degree in FST and I'm backend 
+           developer, I really like it.
+       </p>
             <ul>
                 <li>Kigali, Rwanda</li>
                 <li>+250788289680</li>
                 <li>musonidamars@gmail.com</li>
             </ul>
-
-           
             <h2>Education</h2>
             <h3>Bachelors in Food Science Technology</h3>
+            <p className="resume-card2019">2016-2020</p>
+            <p>University of Rwanda</p>
+            <p>in Food Science and Technology</p>
+            </Card>
+
+            <Card className="resume-card">
+                
+           <h2>Professional Experience</h2> 
+           <h3>Lab Technician</h3>
+           <h4>Inyange Industry</h4>
+           <p className="resume-card2019">2019</p>
+           <ul>
+               <li>Work on products and ingredients to manufacture food. </li>
+                 <li>Clean, maintain, operate, and sanitize laboratory equipment
+                 such as microscopes and petri dishes.</li>   
+                <li>Use mathematical and chemical procedures to find percentages of ingredients and formulas. 
+                   Record or compile test results or prepare graphs, charts, or reports.</li> 
+           </ul>
+            </Card>
             
     </div>
     </div>
+<br></br>
+    <div>
+        <h1>Portfolio</h1>
+        <hr></hr>
+        <p>I have project about Search Engine, Blog post, Personal Portofolio, Website about e-commerce called Real Job Opportunity</p>
+    
+    <Card className="port">
+        
+    </Card>
+    <br></br>
+    <Card className="port1">
+        
+    </Card>
 
-    <div className="Working-container">
-<h1 >Working-Experience</h1>
-<hr/>
-
-    <p className="WorkingParagraph"><h3 className="WorkingParagraphH1">Rwanda Haza Tech Ltd</h3>
-    Rwanda Haza Tech Ltd is tech company founded in 2017 and officially 
-     launched in 2018 by group of seven young people with 
-     intentions to make people's and their lives much better using technology,
-      is a business line in the areas of Information Technology, Communication, 
-      IT Security, Multimedia and Cyber security.
-</p> 
-
-
-        </div>
+    </div>
 
     </div>
     </div>
-    </div>
+    </Card>
 
         
        

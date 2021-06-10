@@ -29,9 +29,10 @@ const MainLayout=({children}) =>{
   
     return (
       <Layout>
-        <Sider trigger={null} collapsible collapsed={collapsed} width ="250px"   style={{minHeight:"100vh", position:'fixed'}}>
+        <Sider trigger={null} collapsible collapsed={collapsed} width ="250px" color="white"  style={{minHeight:"100vh", position:'fixed'}}>
           <img src={damaa} alt="logo" className="logo"/>
           <h1 className="name"> Kankera Damars</h1>
+          <h3 className="name2">I'm Backend Developer</h3>
           <div className="social">
           <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['0']}>
           <GithubOutlined className="socialIcons" />
@@ -78,7 +79,7 @@ const MainLayout=({children}) =>{
           <Content
             className="site-layout-background"
             style={{
-              margin: '0px 3px',
+              margin: '0px 0px',
               padding: 0,
               minHeight: "100vh",
             }}
