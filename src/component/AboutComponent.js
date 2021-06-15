@@ -15,11 +15,11 @@ const AboutComponent =()=>{
     <h1 >About</h1>
     <hr/>
     <p className="aboutParagraph">I am back-end Developer, 
-    have been applying in SheCanCode cohort 3 for gaining skills 
-     about different langauge, now i know HTML,CSS,Node js, Javascripts and React. 
+    I have been applying in SheCanCode cohort 3 for gaining skills 
+     about different languages, During bootcamp i learned different languages such as:
+     HTML,CSS,Node js, Javascripts and React js. 
       I am a self- motivated and self-taught professional who likes to solve problems.
-       I merge a passion for usability and 
-       user experience with technical knowledge to create cool digital experiences.
+     
     </p>
 
     <Row>
@@ -27,7 +27,7 @@ const AboutComponent =()=>{
         <img src={damaa} alt="round-image" className="small-image"/>
         </Col>
         <Col span={8}>
-        <p className="full">UI/UX Designer & Fullstack Developer.</p>
+        <p className="full"> UI/UX Designer & Backend Developer.</p>
         <ul >
     <li>Name:Kankera Damars</li>
     <li>email:musonidamars@gmail.com</li>
@@ -63,7 +63,7 @@ const AboutComponent =()=>{
     <h2 className="frontckend">Frontend Development</h2>
     <>
     <p>Node js</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#118ee9'}} percent={80} status= "active" />
-    <p>React js</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#108ee9'}}  percent={80}status= "active" /> 
+    <p>React js</p><Progress  strokeColor={{'0':'#108ee9', '100%':'#108eff9'}}  percent={80}status= "active" /> 
     </>,
     </div>
     </div>
@@ -74,9 +74,9 @@ const AboutComponent =()=>{
     <h1 >Resume</h1>
     <hr/>
     <p className="noteResume">I am back-end Developer,
-    I am a self- motivated and self-taught professional who likes to solve problems.
-       I merge a passion for usability and 
-       user experience with technical knowledge to create cool digital experiences.  
+    I am a self- motivated, and I really like coding, 
+    I have a dream of being Full Stack Developer. 
+    This push me to do many practices as much as possible. 
     </p>
 
     <div className="columnOnSummary">
@@ -95,8 +95,8 @@ const AboutComponent =()=>{
             <h2>Education</h2>
             <h3>Bachelors in Food Science Technology</h3>
             <p className="resume-card2019">2016-2020</p>
-            <p>University of Rwanda</p>
-            <p>in Food Science and Technology</p>
+            <h3>SheCanCode BootCamp <p className="resume-card2019">24/Feb-18/June/2021</p></h3>
+
             </Card>
 
             <Card className="resume-card">
@@ -118,9 +118,16 @@ const AboutComponent =()=>{
     </div>
 <br></br>
     <div>
-        <h1>Portfolio</h1>
+        <h1>Projects</h1>
         <hr></hr>
-        <p>I have project about Search Engine, Blog post, Personal Portofolio, Website about e-commerce called Real Job Opportunity</p>
+        <ul>
+            <p> I have working on many projects like:</p>
+            <li>  Search Engine,</li>  
+            <li>Blog post,</li>
+                <li> Personal Portofolio,</li> 
+            <li>Website about e-commerce platfoam called Real Job Opportunity,</li>
+            <li>Todo-List App</li>
+            </ul>
     
     <Card className="port">
         

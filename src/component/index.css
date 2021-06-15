@@ -28,34 +28,36 @@
     font-style: oblique;
 text-align: center;
     font-size: 25px;
-    color: white;
+    color: black;
   }
   .name2{
     font-style: oblique;
 text-align: center;
     font-size: 15px;
-    color: white;
+    color: black;
   }
   .socialIcons{
     font-size: 20px;
     /* color: rgb(255, 255, 255); */
     margin: 10px; 
     /* background-color:gray;  */
-    border-radius: 50px;
-    border: 10px solid rgb(23, 5, 47)
+    /* border-radius: 50px;
+    border: 10px solid rgb(23, 5, 47) */
     
     
   }
   .socialIcons :hover{
     background-color: skyblue;
     
-    border-radius: 50px;
-    border: 10px ;
+    border-radius: 100%;
+    border: 30px ;
   }
 
   
 
-  
+  .side-nav{
+    background-color: rgb(88, 81, 81);
+  }
  
   .text{
     color: white;
@@ -64,7 +66,7 @@ text-align: center;
     
       .text2{
         color: skyblue;
-       margin: 25px;
+       margin: 105px;
         margin-top: -45px;
   
         }
@@ -240,13 +242,14 @@ position: relative; right: 48.3%;
 .column1{
   margin: 6%;
 }
-.Working-container{
-  font-size: 30px;
-  font-weight: bold;
+.Working-container{ 
+    background-color: white;
+    margin-left: 250px;
+
 
 }
 .Working{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 
 }
@@ -266,14 +269,13 @@ position: relative; right: 48.3%;
   margin-left: 250px;
 }
 .contact-card{
-  box-shadow: 3px 3px 3px 3px black;
+  box-shadow: 3px 3px 3px 3px rgb(155, 152, 152);
 width: 40%;
-margin: 10px;
+/* margin: 10px; */
 }
 .contact-card1{
-  box-shadow: 3px 3px 3px 3px rgb(251, 247, 247);
-width: 50%;
-margin: 10px;
+  box-shadow: 3px 3px 3px 3px rgb(88, 87, 87);
+width: 40%;
 margin-left: 35em;
 margin-top: -25em;
 }
@@ -287,7 +289,7 @@ margin-top: -25em;
   box-shadow: 3px 3px 3px 3px black;
 width: 20em;
 height: 20em;
-background: url(../assets/imagess/blog.jpeg);
+background: url(../assets/imagess/pexels-photo-6899535.jpeg);
 
   /* height: 30%; */
 }
@@ -296,7 +298,7 @@ background: url(../assets/imagess/blog.jpeg);
   box-shadow: 3px 3px 3px 3px black;
 width: 20em;
 height: 20em;
-background: url(../assets/imagess/bb.jpeg);
+background: url(../assets/imagess/pexels-photo-733853.jpeg);
 margin-left: 25em;
 margin-top: -300px;
 

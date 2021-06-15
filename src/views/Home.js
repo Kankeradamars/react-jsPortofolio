@@ -3,7 +3,9 @@ import MainLayout from '../component/MainLayout';
 import Header from '../component/Header';
 import HomeComponent from "../component/HomeComponent";
 import AboutComponent from "../component/AboutComponent";
+import WorkingExperience from '../component/WorkingExperience';
 import Services from "../component/services";
+
 
 const Home=()=>{
     return(
@@ -11,6 +13,7 @@ const Home=()=>{
 
 <HomeComponent/>
 <AboutComponent></AboutComponent>
+<WorkingExperience></WorkingExperience>
 <Services></Services>
 
 </MainLayout>
