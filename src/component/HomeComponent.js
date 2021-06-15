@@ -12,7 +12,11 @@ const HomeComponent =()=>{
 
     {/* <img src={pexel} alt="home-image" className="home-image"/> */}
     <div className="home-content">Damars Kankera
-    <p> I'm back-end Developer</p>
+
+    <marquee width="100%" direction="left" height="100px">
+    I'm back-end Developer
+    </marquee>
+    
     </div>
     
    

@@ -29,12 +29,12 @@ const MainLayout=({children}) =>{
   
     return (
       <Layout>
-        <Sider trigger={null} collapsible collapsed={collapsed} width ="250px" color="white"  style={{minHeight:"100vh", position:'fixed'}}>
+        <Sider className="side-nav" trigger={null} collapsible collapsed={collapsed} width ="250px" color="white"  style={{minHeight:"100vh", position:'fixed'}}>
           <img src={damaa} alt="logo" className="logo"/>
           <h1 className="name"> Kankera Damars</h1>
           <h3 className="name2">I'm Backend Developer</h3>
           <div className="social">
-          <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['0']}>
+          <Menu className="side-nav" mode="horizontal" defaultSelectedKeys={['0']}>
           <GithubOutlined className="socialIcons" />
           <LinkedinOutlined className="socialIcons" />
           <InstagramOutlined className="socialIcons" />
@@ -45,7 +45,7 @@ const MainLayout=({children}) =>{
           </div>
           <div className="icons">
           
-          <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
+          <Menu className="side-nav" mode="inline">
           <Menu.Item  key="1" icon={<HomeOutlined className="home"/>}>
               <a href="#">Home</a>
             </Menu.Item>
