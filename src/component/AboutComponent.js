@@ -14,27 +14,21 @@ const AboutComponent =()=>{
     <div className="About-content">
     <h1 >About</h1>
     <hr/>
-    <p className="aboutParagraph">I am back-end Developer, 
+    
+
+    <Row>
+        <Col span={8}>
+      
+        <img src={damaa} alt="round-image" className="small-image"/>
+        </Col>
+        <Col span={8}>
+        <p className="aboutParagraph">I am back-end Developer, 
     I have been applying in SheCanCode cohort 3 for gaining skills 
      about different languages, During bootcamp i learned different languages such as:
      HTML,CSS,Node js, Javascripts and React js. 
       I am a self- motivated and self-taught professional who likes to solve problems.
      
     </p>
-
-    <Row>
-        <Col span={8}>
-        <img src={damaa} alt="round-image" className="small-image"/>
-        </Col>
-        <Col span={8}>
-        <p className="full"> UI/UX Designer & Backend Developer.</p>
-        <ul >
-    <li>Name:Kankera Damars</li>
-    <li>email:musonidamars@gmail.com</li>
-    <li>tel:+250788289680</li>
-    <li>Rwanda/ Kigali City</li>
-<li>Freelance: Am available</li>
-</ul>
         </Col>
     </Row>
     

@@ -1,9 +1,9 @@
-import React,{Children, useState} from 'react';
-import ReactDOM from 'react-dom';
+import React,{Children, useState, useEffect} from 'react';
 import 'antd/dist/antd.css';
 import damaa from "../assets/imagess/damaa.jpg";
 import './index.css';
 import { Layout, Menu } from 'antd';
+import { Link } from "react-router-dom";
 import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,
@@ -49,8 +49,10 @@ const MainLayout=({children}) =>{
           <Menu.Item  key="1" icon={<HomeOutlined className="home"/>}>
               <a href="#">Home</a>
             </Menu.Item>
+
             <Menu.Item key="2" icon={<UserOutlined className="home"/>}>
-              About
+              <a href="#"> About</a>
+              
             </Menu.Item>
             <Menu.Item key="3" icon={<FileOutlined className="home"/>}>
               Resume
@@ -65,7 +67,7 @@ const MainLayout=({children}) =>{
           </Menu>
           </div>
 
-          <div className="text">© Copyright<div className="text5">iPortfolio</div > <div className="text6">Designed by</div>  <div className="text2">SheCanCode</div> </div>
+          <div className="text">© Copyright<div className="text5">2021</div > <div className="text6">Designed by</div>  <div className="text2">Damars</div> </div>
           
              
         </Sider>
